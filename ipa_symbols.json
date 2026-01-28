@@ -1,0 +1,519 @@
+{
+  "vowels": [
+    {
+      "ipa": "/æ/",
+      "notation": "/a/",
+      "examples": [
+        "apple"
+      ]
+    },
+    {
+      "ipa": "/ɛ/",
+      "notation": "/e/",
+      "examples": [
+        "egg",
+        "head",
+        "said"
+      ]
+    },
+    {
+      "ipa": "/ɪ/",
+      "notation": "/i/",
+      "examples": [
+        "insect",
+        "cymbals"
+      ]
+    },
+    {
+      "ipa": "/ɒ/",
+      "notation": "/o/",
+      "examples": [
+        "octopus",
+        "watch",
+        "qualify",
+        "salt"
+      ]
+    },
+    {
+      "ipa": "/ʌ/",
+      "notation": "/u/",
+      "examples": [
+        "umbrella",
+        "son",
+        "touch",
+        "thoroughfare"
+      ]
+    },
+    {
+      "ipa": "/eɪ/",
+      "notation": "/ai/",
+      "examples": [
+        "aid",
+        "tray",
+        "table",
+        "sundae",
+        "cake",
+        "prey",
+        "break",
+        "eight",
+        "straight"
+      ]
+    },
+    {
+      "ipa": "/iː/",
+      "notation": "/ee/",
+      "examples": [
+        "eel",
+        "eat",
+        "emu",
+        "concrete",
+        "key",
+        "chief",
+        "sardines"
+      ]
+    },
+    {
+      "ipa": "/ɪ/ to /iː/",
+      "notation": "/i-ee/ (between)",
+      "examples": [
+        "sunny",
+        "monkey",
+        "movie"
+      ]
+    },
+    {
+      "ipa": "/aɪ/",
+      "notation": "/igh/",
+      "examples": [
+        "night",
+        "tie",
+        "behind",
+        "fly",
+        "bike",
+        "eiderdown"
+      ]
+    },
+    {
+      "ipa": "/əʊ/",
+      "notation": "/oa/",
+      "examples": [
+        "oak",
+        "bow",
+        "yo-yo",
+        "oboe",
+        "rope",
+        "dough",
+        "plateau"
+      ]
+    },
+    {
+      "ipa": "/j/ + /uː/",
+      "notation": "/y+oo/",
+      "examples": [
+        "statue",
+        "unicorn",
+        "tube",
+        "new",
+        "pneumatic"
+      ]
+    },
+    {
+      "ipa": "/ʊ/",
+      "notation": "/oo/ (short)",
+      "examples": [
+        "book",
+        "should",
+        "push",
+        "wolf",
+        "(wolves)"
+      ]
+    },
+    {
+      "ipa": "/uː/",
+      "notation": "/oo/ (long)",
+      "examples": [
+        "moon",
+        "blue",
+        "flute",
+        "fruit",
+        "crew",
+        "soup",
+        "move",
+        "through",
+        "super"
+      ]
+    },
+    {
+      "ipa": "/ɔɪ/",
+      "notation": "/oi/",
+      "examples": [
+        "ointment",
+        "toy"
+      ]
+    },
+    {
+      "ipa": "/aʊ/",
+      "notation": "/ou/",
+      "examples": [
+        "ouch",
+        "owl",
+        "plough"
+      ]
+    },
+    {
+      "ipa": "/ɑː/",
+      "notation": "/ar/",
+      "examples": [
+        "artist",
+        "father",
+        "palm",
+        "half",
+        "calves"
+      ]
+    },
+    {
+      "ipa": "/ɔː/",
+      "notation": "/or/ or /aw/",
+      "examples": [
+        "fork",
+        "oars",
+        "door",
+        "snore",
+        "four",
+        "wardrobe",
+        "quarter",
+        "dawn",
+        "sauce",
+        "chalk",
+        "caught",
+        "thought",
+        "water"
+      ]
+    },
+    {
+      "ipa": "/ɜː/",
+      "notation": "/er/",
+      "examples": [
+        "mermaid",
+        "birthday",
+        "nurse",
+        "earth",
+        "world"
+      ]
+    },
+    {
+      "ipa": "/ə/ 'uh'",
+      "notation": "schwa /er/ or /u/",
+      "examples": [
+        "mixer",
+        "humour",
+        "theatre",
+        "collar",
+        "sailor",
+        "above"
+      ]
+    },
+    {
+      "ipa": "/ɛə/",
+      "notation": "/air/",
+      "examples": [
+        "hair",
+        "hare",
+        "bear",
+        "where"
+      ]
+    },
+    {
+      "ipa": "/ɪə/",
+      "notation": "/eer/",
+      "examples": [
+        "deer",
+        "ears",
+        "adhere",
+        "cashier"
+      ]
+    },
+    {
+      "ipa": "/j/ + /ʊə/",
+      "notation": "/y+oor/",
+      "examples": [
+        "pure"
+      ]
+    }
+  ],
+  "consonants": [
+    {
+      "ipa": "/b/",
+      "notation": "/b/",
+      "examples": [
+        "bat",
+        "rabbit",
+        "builder"
+      ]
+    },
+    {
+      "ipa": "/k/",
+      "notation": "/k/",
+      "examples": [
+        "cat",
+        "kit",
+        "duck",
+        "chameleon",
+        "bouquet",
+        "plaque"
+      ]
+    },
+    {
+      "ipa": "/d/",
+      "notation": "/d/",
+      "examples": [
+        "dig",
+        "puddle",
+        "rained"
+      ]
+    },
+    {
+      "ipa": "/f/",
+      "notation": "/f/",
+      "examples": [
+        "feathers",
+        "cliff",
+        "photograph",
+        "laugh"
+      ]
+    },
+    {
+      "ipa": "/g/",
+      "notation": "/g/",
+      "examples": [
+        "girl",
+        "juggle",
+        "guitar",
+        "ghost",
+        "catalogue"
+      ]
+    },
+    {
+      "ipa": "/h/",
+      "notation": "/h/",
+      "examples": [
+        "hat",
+        "who"
+      ]
+    },
+    {
+      "ipa": "/dʒ/",
+      "notation": "/j/",
+      "examples": [
+        "jug",
+        "cabbage",
+        "gerbil",
+        "giraffe",
+        "gymnast",
+        "fridge"
+      ]
+    },
+    {
+      "ipa": "/l/",
+      "notation": "/l/",
+      "examples": [
+        "ladder",
+        "shell"
+      ]
+    },
+    {
+      "ipa": "/əl/",
+      "notation": "/ul/",
+      "examples": [
+        "kettle",
+        "pencil",
+        "hospital",
+        "camel"
+      ]
+    },
+    {
+      "ipa": "/m/",
+      "notation": "/m/",
+      "examples": [
+        "map",
+        "hammer",
+        "welcome",
+        "thumb",
+        "column"
+      ]
+    },
+    {
+      "ipa": "/n/",
+      "notation": "/n/",
+      "examples": [
+        "net",
+        "bonnet",
+        "knot",
+        "gnome",
+        "engine"
+      ]
+    },
+    {
+      "ipa": "/ŋ/",
+      "notation": "/ng/ /n/+ /k/ /ng+k/",
+      "examples": [
+        "gong",
+        "jungle",
+        "ink",
+        "uncle",
+        "some programmes"
+      ]
+    },
+    {
+      "ipa": "/p/",
+      "notation": "/p/",
+      "examples": [
+        "pan",
+        "puppet"
+      ]
+    },
+    {
+      "ipa": "/k/ + /w/",
+      "notation": "/k+w/",
+      "examples": [
+        "queen",
+        "awkward"
+      ]
+    },
+    {
+      "ipa": "/ɹ/",
+      "notation": "/r/",
+      "examples": [
+        "rat",
+        "arrow",
+        "write",
+        "rhinoceros"
+      ]
+    },
+    {
+      "ipa": "/s/",
+      "notation": "/s/",
+      "examples": [
+        "snake",
+        "glass",
+        "palace",
+        "house",
+        "cents",
+        "city",
+        "bicycle",
+        "scissors",
+        "castle",
+        "pseudonym"
+      ]
+    },
+    {
+      "ipa": "/t/",
+      "notation": "/t/",
+      "examples": [
+        "tent",
+        "letter",
+        "skipped",
+        "debt",
+        "pterodactyl"
+      ]
+    },
+    {
+      "ipa": "/v/",
+      "notation": "/v/",
+      "examples": [
+        "violin",
+        "dove"
+      ]
+    },
+    {
+      "ipa": "/w/",
+      "notation": "/w/",
+      "examples": [
+        "web",
+        "wheel",
+        "penguin"
+      ]
+    },
+    {
+      "ipa": "/k/ + /s/",
+      "notation": "/k+s/",
+      "examples": [
+        "fox",
+        "(plurals: books ducks picnics cakes plaques)"
+      ]
+    },
+    {
+      "ipa": "/g/ + /z/",
+      "notation": "/g+z/",
+      "examples": [
+        "exam",
+        "(plurals: pegs eggs catalogues)"
+      ]
+    },
+    {
+      "ipa": "/j/",
+      "notation": "/y/",
+      "examples": [
+        "yawn"
+      ]
+    },
+    {
+      "ipa": "/z/",
+      "notation": "/z/",
+      "examples": [
+        "zebra",
+        "jazz",
+        "(plural: fries)",
+        "cheese",
+        "breeze",
+        "xylophone"
+      ]
+    },
+    {
+      "ipa": "/tʃ/",
+      "notation": "/ch/",
+      "examples": [
+        "chairs",
+        "patch",
+        "/tʃ/+/ə/ /ch+u/",
+        "picture"
+      ]
+    },
+    {
+      "ipa": "/ʃ/",
+      "notation": "/sh/",
+      "examples": [
+        "sheep",
+        "chef",
+        "station",
+        "magician",
+        "admission"
+      ]
+    },
+    {
+      "ipa": "/θ/",
+      "notation": "unvoiced /th/",
+      "examples": [
+        "thistle"
+      ]
+    },
+    {
+      "ipa": "/ð/",
+      "notation": "voiced /th/",
+      "examples": [
+        "there"
+      ]
+    },
+    {
+      "ipa": "/3/",
+      "notation": "/zh/",
+      "examples": [
+        "television",
+        "treasure",
+        "azure (blue)",
+        "courgette",
+        "collage"
+      ]
+    }
+  ]
+}

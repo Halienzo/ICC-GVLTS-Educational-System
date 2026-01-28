@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": "Nocturne No. 20 in C-sharp minor",
+    "titleGerman": "Notturno Nr. 20 in cis-Moll",
+    "composer": "Frédéric Chopin",
+    "opus": "Op. posth. (B. 49)",
+    "catalogNumbers": {
+      "Brown": "B. 49",
+      "Kobylanska": "KK IVa/16"
+    },
+    "key": "C-sharp minor",
+    "keyGerman": "cis-Moll",
+    "tempo": "Lento con gran espressione",
+    "metronome": "♩ = 50",
+    "timeSignature": "4/4",
+    "totalNotes": 286,
+    "totalMeasures": 65,
+    "totalSections": 3,
+    "totalPhrases": 12,
+    "difficulty": "Intermediate",
+    "estimatedDuration": "4:00",
+    "yearComposed": "1830",
+    "yearPublished": "1870",
+    "dedication": "Ludwika Chopin (sister)",
+    "generatedDate": "2026-01-17",
+    "version": "1.0",
+    "description": "One of Chopin's most beloved nocturnes, written for his sister Ludwika. Known for its haunting melody and featured in the film 'The Pianist'.",
+    "famousIn": "Film 'The Pianist' (2002)"
+  },
+  "keyboardMapping": {
+    "strategy": "sequential_cycling",
+    "description": "Notes mapped sequentially to keyboard keys, cycling through the key pool",
+    "keyPool": {
+      "primary": ["f", "j", "d", "k", "s", "l", "a", ";", "g", "h"],
+      "secondary": ["r", "u", "e", "i", "w", "o", "q", "p", "t", "y"],
+      "tertiary": ["v", "m", "c", "n", "x", ",", "z", ".", "b", "/"],
+      "numbers": ["5", "6", "4", "7", "3", "8", "2", "9", "1", "0"]
+    },
+    "restKey": "space",
+    "restDisplay": "_"
+  },
+  "structure": {
+    "form": "ABA' (Ternary)",
+    "sections": [
+      {
+        "id": "A1",
+        "name": "Theme A - Lento con gran espressione",
+        "nameGerman": "Thema A - Langsam mit großem Ausdruck",
+        "measures": "1-24",
+        "keyArea": "C-sharp minor",
+        "character": "Deeply expressive, melancholic",
+        "description": "The famous opening theme with its haunting descending melody",
+        "phrases": [
+          {
+            "id": "A1-P1",
+            "measures": "1-4",
+            "description": "Opening - iconic descending theme",
+            "noteCount": 28,
+            "notes": [
+              {"key": "f", "display": "f", "pitch": "G#4", "duration": "quarter", "measure": 1, "beat": 1, "dynamics": "p"},
+              {"key": "j", "display": "j", "pitch": "C#5", "duration": "eighth", "measure": 1, "beat": 2},
+              {"key": "d", "display": "d", "pitch": "B4", "duration": "eighth", "measure": 1, "beat": 2.5},
+              {"key": "k", "display": "k", "pitch": "A4", "duration": "quarter", "measure": 1, "beat": 3},
+              {"key": "s", "display": "s", "pitch": "G#4", "duration": "quarter", "measure": 1, "beat": 4},
+              {"key": "l", "display": "l", "pitch": "G#4", "duration": "half", "measure": 2, "beat": 1},
+              {"key": "a", "display": "a", "pitch": "F#4", "duration": "quarter", "measure": 2, "beat": 3},
+              {"key": ";", "display": ";", "pitch": "E4", "duration": "quarter", "measure": 2, "beat": 4},
+              {"key": "g", "display": "g", "pitch": "D#4", "duration": "half", "measure": 3, "beat": 1},
+              {"key": "h", "display": "h", "pitch": "E4", "duration": "quarter", "measure": 3, "beat": 3},
+              {"key": "r", "display": "r", "pitch": "F#4", "duration": "quarter", "measure": 3, "beat": 4},
+              {"key": "u", "display": "u", "pitch": "G#4", "duration": "dotted-half", "measure": 4, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 4, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "A1-P2",
+            "measures": "5-8",
+            "description": "Theme continuation - expressive response",
+            "noteCount": 26,
+            "notes": [
+              {"key": "e", "display": "e", "pitch": "G#4", "duration": "quarter", "measure": 5, "beat": 1, "dynamics": "p"},
+              {"key": "i", "display": "i", "pitch": "C#5", "duration": "eighth", "measure": 5, "beat": 2},
+              {"key": "w", "display": "w", "pitch": "D#5", "duration": "eighth", "measure": 5, "beat": 2.5},
+              {"key": "o", "display": "o", "pitch": "E5", "duration": "quarter", "measure": 5, "beat": 3},
+              {"key": "q", "display": "q", "pitch": "D#5", "duration": "quarter", "measure": 5, "beat": 4},
+              {"key": "p", "display": "p", "pitch": "C#5", "duration": "half", "measure": 6, "beat": 1},
+              {"key": "t", "display": "t", "pitch": "B4", "duration": "quarter", "measure": 6, "beat": 3},
+              {"key": "y", "display": "y", "pitch": "A4", "duration": "quarter", "measure": 6, "beat": 4},
+              {"key": "v", "display": "v", "pitch": "G#4", "duration": "half", "measure": 7, "beat": 1},
+              {"key": "m", "display": "m", "pitch": "A4", "duration": "quarter", "measure": 7, "beat": 3},
+              {"key": "c", "display": "c", "pitch": "B4", "duration": "quarter", "measure": 7, "beat": 4},
+              {"key": "n", "display": "n", "pitch": "C#5", "duration": "dotted-half", "measure": 8, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 8, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "A1-P3",
+            "measures": "9-12",
+            "description": "Intensification with crescendo",
+            "noteCount": 30,
+            "notes": [
+              {"key": "x", "display": "x", "pitch": "E5", "duration": "quarter", "measure": 9, "beat": 1, "dynamics": "cresc."},
+              {"key": ",", "display": ",", "pitch": "F#5", "duration": "eighth", "measure": 9, "beat": 2},
+              {"key": "z", "display": "z", "pitch": "G#5", "duration": "eighth", "measure": 9, "beat": 2.5},
+              {"key": ".", "display": ".", "pitch": "A5", "duration": "quarter", "measure": 9, "beat": 3},
+              {"key": "b", "display": "b", "pitch": "G#5", "duration": "quarter", "measure": 9, "beat": 4},
+              {"key": "/", "display": "/", "pitch": "F#5", "duration": "half", "measure": 10, "beat": 1, "dynamics": "f"},
+              {"key": "5", "display": "5", "pitch": "E5", "duration": "quarter", "measure": 10, "beat": 3},
+              {"key": "6", "display": "6", "pitch": "D#5", "duration": "quarter", "measure": 10, "beat": 4},
+              {"key": "4", "display": "4", "pitch": "E5", "duration": "half", "measure": 11, "beat": 1, "dynamics": "dim."},
+              {"key": "7", "display": "7", "pitch": "D#5", "duration": "quarter", "measure": 11, "beat": 3},
+              {"key": "3", "display": "3", "pitch": "C#5", "duration": "quarter", "measure": 11, "beat": 4},
+              {"key": "8", "display": "8", "pitch": "B4", "duration": "dotted-half", "measure": 12, "beat": 1, "dynamics": "p"},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 12, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "A1-P4",
+            "measures": "13-16",
+            "description": "Theme restatement with ornamentation",
+            "noteCount": 32,
+            "notes": [
+              {"key": "2", "display": "2", "pitch": "G#4", "duration": "quarter", "measure": 13, "beat": 1, "dynamics": "p dolce"},
+              {"key": "9", "display": "9", "pitch": "C#5", "duration": "sixteenth", "measure": 13, "beat": 2, "articulation": "grace"},
+              {"key": "1", "display": "1", "pitch": "D#5", "duration": "sixteenth", "measure": 13, "beat": 2.25},
+              {"key": "0", "display": "0", "pitch": "C#5", "duration": "eighth", "measure": 13, "beat": 2.5},
+              {"key": "f", "display": "f", "pitch": "B4", "duration": "eighth", "measure": 13, "beat": 3},
+              {"key": "j", "display": "j", "pitch": "A4", "duration": "quarter", "measure": 13, "beat": 3.5},
+              {"key": "d", "display": "d", "pitch": "G#4", "duration": "quarter", "measure": 13, "beat": 4},
+              {"key": "k", "display": "k", "pitch": "G#4", "duration": "half", "measure": 14, "beat": 1},
+              {"key": "s", "display": "s", "pitch": "F#4", "duration": "quarter", "measure": 14, "beat": 3},
+              {"key": "l", "display": "l", "pitch": "E4", "duration": "quarter", "measure": 14, "beat": 4},
+              {"key": "a", "display": "a", "pitch": "D#4", "duration": "half", "measure": 15, "beat": 1},
+              {"key": ";", "display": ";", "pitch": "E4", "duration": "quarter", "measure": 15, "beat": 3},
+              {"key": "g", "display": "g", "pitch": "F#4", "duration": "quarter", "measure": 15, "beat": 4},
+              {"key": "h", "display": "h", "pitch": "G#4", "duration": "dotted-half", "measure": 16, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 16, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "A1-P5",
+            "measures": "17-24",
+            "description": "Extended conclusion of A section",
+            "noteCount": 48,
+            "notes": [
+              {"key": "r", "display": "r", "pitch": "G#4", "duration": "quarter", "measure": 17, "beat": 1},
+              {"key": "u", "display": "u", "pitch": "A4", "duration": "eighth", "measure": 17, "beat": 2},
+              {"key": "e", "display": "e", "pitch": "B4", "duration": "eighth", "measure": 17, "beat": 2.5},
+              {"key": "i", "display": "i", "pitch": "C#5", "duration": "quarter", "measure": 17, "beat": 3},
+              {"key": "w", "display": "w", "pitch": "D#5", "duration": "quarter", "measure": 17, "beat": 4},
+              {"key": "o", "display": "o", "pitch": "E5", "duration": "half", "measure": 18, "beat": 1, "dynamics": "cresc."},
+              {"key": "q", "display": "q", "pitch": "F#5", "duration": "quarter", "measure": 18, "beat": 3},
+              {"key": "p", "display": "p", "pitch": "G#5", "duration": "quarter", "measure": 18, "beat": 4},
+              {"key": "t", "display": "t", "pitch": "A5", "duration": "dotted-quarter", "measure": 19, "beat": 1, "dynamics": "f"},
+              {"key": "y", "display": "y", "pitch": "G#5", "duration": "eighth", "measure": 19, "beat": 2.5},
+              {"key": "v", "display": "v", "pitch": "F#5", "duration": "quarter", "measure": 19, "beat": 3},
+              {"key": "m", "display": "m", "pitch": "E5", "duration": "quarter", "measure": 19, "beat": 4},
+              {"key": "c", "display": "c", "pitch": "D#5", "duration": "half", "measure": 20, "beat": 1, "dynamics": "dim."},
+              {"key": "n", "display": "n", "pitch": "C#5", "duration": "quarter", "measure": 20, "beat": 3},
+              {"key": "x", "display": "x", "pitch": "B4", "duration": "quarter", "measure": 20, "beat": 4},
+              {"key": ",", "display": ",", "pitch": "A4", "duration": "half", "measure": 21, "beat": 1, "dynamics": "p"},
+              {"key": "z", "display": "z", "pitch": "G#4", "duration": "quarter", "measure": 21, "beat": 3},
+              {"key": ".", "display": ".", "pitch": "F#4", "duration": "quarter", "measure": 21, "beat": 4},
+              {"key": "b", "display": "b", "pitch": "E4", "duration": "half", "measure": 22, "beat": 1},
+              {"key": "/", "display": "/", "pitch": "D#4", "duration": "half", "measure": 22, "beat": 3},
+              {"key": "5", "display": "5", "pitch": "C#4", "duration": "whole", "measure": 23, "beat": 1, "dynamics": "pp"},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "whole", "measure": 24, "beat": 1, "isRest": true}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "name": "Middle Section - Più mosso",
+        "nameGerman": "Mittelteil - Bewegter",
+        "measures": "25-40",
+        "keyArea": "D-flat major / C-sharp major",
+        "character": "More animated, hopeful contrast",
+        "description": "Contrasting middle section with flowing arpeggios and a sense of longing",
+        "phrases": [
+          {
+            "id": "B-P1",
+            "measures": "25-32",
+            "description": "New theme in relative major",
+            "noteCount": 52,
+            "notes": [
+              {"key": "6", "display": "6", "pitch": "E#5", "duration": "quarter", "measure": 25, "beat": 1, "dynamics": "p dolce"},
+              {"key": "4", "display": "4", "pitch": "F#5", "duration": "eighth", "measure": 25, "beat": 2},
+              {"key": "7", "display": "7", "pitch": "G#5", "duration": "eighth", "measure": 25, "beat": 2.5},
+              {"key": "3", "display": "3", "pitch": "A#5", "duration": "quarter", "measure": 25, "beat": 3},
+              {"key": "8", "display": "8", "pitch": "G#5", "duration": "quarter", "measure": 25, "beat": 4},
+              {"key": "2", "display": "2", "pitch": "F#5", "duration": "half", "measure": 26, "beat": 1},
+              {"key": "9", "display": "9", "pitch": "E#5", "duration": "quarter", "measure": 26, "beat": 3},
+              {"key": "1", "display": "1", "pitch": "D#5", "duration": "quarter", "measure": 26, "beat": 4},
+              {"key": "0", "display": "0", "pitch": "C#5", "duration": "half", "measure": 27, "beat": 1},
+              {"key": "f", "display": "f", "pitch": "B#4", "duration": "quarter", "measure": 27, "beat": 3},
+              {"key": "j", "display": "j", "pitch": "C#5", "duration": "quarter", "measure": 27, "beat": 4},
+              {"key": "d", "display": "d", "pitch": "D#5", "duration": "dotted-half", "measure": 28, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 28, "beat": 4, "isRest": true},
+              {"key": "k", "display": "k", "pitch": "E#5", "duration": "quarter", "measure": 29, "beat": 1, "dynamics": "cresc."},
+              {"key": "s", "display": "s", "pitch": "F#5", "duration": "eighth", "measure": 29, "beat": 2},
+              {"key": "l", "display": "l", "pitch": "G#5", "duration": "eighth", "measure": 29, "beat": 2.5},
+              {"key": "a", "display": "a", "pitch": "A#5", "duration": "quarter", "measure": 29, "beat": 3},
+              {"key": ";", "display": ";", "pitch": "B5", "duration": "quarter", "measure": 29, "beat": 4},
+              {"key": "g", "display": "g", "pitch": "C#6", "duration": "half", "measure": 30, "beat": 1, "dynamics": "f"},
+              {"key": "h", "display": "h", "pitch": "B5", "duration": "quarter", "measure": 30, "beat": 3},
+              {"key": "r", "display": "r", "pitch": "A#5", "duration": "quarter", "measure": 30, "beat": 4},
+              {"key": "u", "display": "u", "pitch": "G#5", "duration": "half", "measure": 31, "beat": 1, "dynamics": "dim."},
+              {"key": "e", "display": "e", "pitch": "F#5", "duration": "quarter", "measure": 31, "beat": 3},
+              {"key": "i", "display": "i", "pitch": "E#5", "duration": "quarter", "measure": 31, "beat": 4},
+              {"key": "w", "display": "w", "pitch": "F#5", "duration": "dotted-half", "measure": 32, "beat": 1, "dynamics": "p"},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 32, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "B-P2",
+            "measures": "33-40",
+            "description": "Development and return preparation",
+            "noteCount": 48,
+            "notes": [
+              {"key": "o", "display": "o", "pitch": "C#5", "duration": "quarter", "measure": 33, "beat": 1, "dynamics": "p"},
+              {"key": "q", "display": "q", "pitch": "E#5", "duration": "eighth", "measure": 33, "beat": 2},
+              {"key": "p", "display": "p", "pitch": "G#5", "duration": "eighth", "measure": 33, "beat": 2.5},
+              {"key": "t", "display": "t", "pitch": "C#6", "duration": "quarter", "measure": 33, "beat": 3, "dynamics": "cresc."},
+              {"key": "y", "display": "y", "pitch": "B5", "duration": "quarter", "measure": 33, "beat": 4},
+              {"key": "v", "display": "v", "pitch": "A#5", "duration": "half", "measure": 34, "beat": 1},
+              {"key": "m", "display": "m", "pitch": "G#5", "duration": "quarter", "measure": 34, "beat": 3},
+              {"key": "c", "display": "c", "pitch": "F#5", "duration": "quarter", "measure": 34, "beat": 4},
+              {"key": "n", "display": "n", "pitch": "E#5", "duration": "half", "measure": 35, "beat": 1, "dynamics": "f"},
+              {"key": "x", "display": "x", "pitch": "F#5", "duration": "quarter", "measure": 35, "beat": 3},
+              {"key": ",", "display": ",", "pitch": "G#5", "duration": "quarter", "measure": 35, "beat": 4},
+              {"key": "z", "display": "z", "pitch": "A#5", "duration": "dotted-quarter", "measure": 36, "beat": 1},
+              {"key": ".", "display": ".", "pitch": "G#5", "duration": "eighth", "measure": 36, "beat": 2.5},
+              {"key": "b", "display": "b", "pitch": "F#5", "duration": "quarter", "measure": 36, "beat": 3, "dynamics": "dim."},
+              {"key": "/", "display": "/", "pitch": "E#5", "duration": "quarter", "measure": 36, "beat": 4},
+              {"key": "5", "display": "5", "pitch": "D#5", "duration": "half", "measure": 37, "beat": 1, "dynamics": "p"},
+              {"key": "6", "display": "6", "pitch": "C#5", "duration": "quarter", "measure": 37, "beat": 3},
+              {"key": "4", "display": "4", "pitch": "B4", "duration": "quarter", "measure": 37, "beat": 4},
+              {"key": "7", "display": "7", "pitch": "A4", "duration": "half", "measure": 38, "beat": 1},
+              {"key": "3", "display": "3", "pitch": "G#4", "duration": "quarter", "measure": 38, "beat": 3},
+              {"key": "8", "display": "8", "pitch": "F#4", "duration": "quarter", "measure": 38, "beat": 4},
+              {"key": "2", "display": "2", "pitch": "E4", "duration": "half", "measure": 39, "beat": 1, "dynamics": "pp"},
+              {"key": "9", "display": "9", "pitch": "D#4", "duration": "half", "measure": 39, "beat": 3},
+              {"key": "1", "display": "1", "pitch": "C#4", "duration": "whole", "measure": 40, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "half", "measure": 40, "beat": 3, "isRest": true}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "name": "Theme A - Return and Coda",
+        "nameGerman": "Thema A - Wiederkehr und Coda",
+        "measures": "41-65",
+        "keyArea": "C-sharp minor → C-sharp major",
+        "character": "Return to melancholy, peaceful conclusion",
+        "description": "Recapitulation of main theme with extended coda ending in major (Picardy third)",
+        "phrases": [
+          {
+            "id": "A2-P1",
+            "measures": "41-48",
+            "description": "Theme recapitulation",
+            "noteCount": 42,
+            "notes": [
+              {"key": "0", "display": "0", "pitch": "G#4", "duration": "quarter", "measure": 41, "beat": 1, "dynamics": "p dolce"},
+              {"key": "f", "display": "f", "pitch": "C#5", "duration": "eighth", "measure": 41, "beat": 2},
+              {"key": "j", "display": "j", "pitch": "B4", "duration": "eighth", "measure": 41, "beat": 2.5},
+              {"key": "d", "display": "d", "pitch": "A4", "duration": "quarter", "measure": 41, "beat": 3},
+              {"key": "k", "display": "k", "pitch": "G#4", "duration": "quarter", "measure": 41, "beat": 4},
+              {"key": "s", "display": "s", "pitch": "G#4", "duration": "half", "measure": 42, "beat": 1},
+              {"key": "l", "display": "l", "pitch": "F#4", "duration": "quarter", "measure": 42, "beat": 3},
+              {"key": "a", "display": "a", "pitch": "E4", "duration": "quarter", "measure": 42, "beat": 4},
+              {"key": ";", "display": ";", "pitch": "D#4", "duration": "half", "measure": 43, "beat": 1},
+              {"key": "g", "display": "g", "pitch": "E4", "duration": "quarter", "measure": 43, "beat": 3},
+              {"key": "h", "display": "h", "pitch": "F#4", "duration": "quarter", "measure": 43, "beat": 4},
+              {"key": "r", "display": "r", "pitch": "G#4", "duration": "dotted-half", "measure": 44, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 44, "beat": 4, "isRest": true},
+              {"key": "u", "display": "u", "pitch": "G#4", "duration": "quarter", "measure": 45, "beat": 1},
+              {"key": "e", "display": "e", "pitch": "C#5", "duration": "eighth", "measure": 45, "beat": 2},
+              {"key": "i", "display": "i", "pitch": "D#5", "duration": "eighth", "measure": 45, "beat": 2.5},
+              {"key": "w", "display": "w", "pitch": "E5", "duration": "quarter", "measure": 45, "beat": 3},
+              {"key": "o", "display": "o", "pitch": "D#5", "duration": "quarter", "measure": 45, "beat": 4},
+              {"key": "q", "display": "q", "pitch": "C#5", "duration": "half", "measure": 46, "beat": 1},
+              {"key": "p", "display": "p", "pitch": "B4", "duration": "quarter", "measure": 46, "beat": 3},
+              {"key": "t", "display": "t", "pitch": "A4", "duration": "quarter", "measure": 46, "beat": 4},
+              {"key": "y", "display": "y", "pitch": "G#4", "duration": "half", "measure": 47, "beat": 1},
+              {"key": "v", "display": "v", "pitch": "A4", "duration": "quarter", "measure": 47, "beat": 3},
+              {"key": "m", "display": "m", "pitch": "B4", "duration": "quarter", "measure": 47, "beat": 4},
+              {"key": "c", "display": "c", "pitch": "C#5", "duration": "dotted-half", "measure": 48, "beat": 1},
+              {"key": "space", "display": "_", "pitch": "REST", "duration": "quarter", "measure": 48, "beat": 4, "isRest": true}
+            ]
+          },
+          {
+            "id": "A2-P2",
+            "measures": "49-56",
+            "description": "Coda - reflective passage",
+            "noteCount": 38,
+            "notes": [
+              {"key": "n", "display": "n", "pitch": "E5", "duration": "quarter", "measure": 49, "beat": 1, "dynamics": "pp"},
+              {"key": "x", "display": "x", "pitch": "D#5", "duration": "eighth", "measure": 49, "beat": 2},
+              {"key": ",", "display": ",", "pitch": "C#5", "duration": "eighth", "measure": 49, "beat": 2.5},
+              {"key": "z", "display": "z", "pitch": "B4", "duration": "quarter", "measure": 49, "beat": 3},
+              {"key": ".", "display": ".", "pitch": "A4", "duration": "quarter", "measure": 49, "beat": 4},
+              {"key": "b", "display": "b", "pitch": "G#4", "duration": "half", "measure": 50, "beat": 1},
+              {"key": "/", "display": "/", "pitch": "F#4", "duration": "quarter", "measure": 50, "beat": 3},
+              {"key": "5", "display": "5", "pitch": "E4", "duration": "quarter", "measure": 50, "beat": 4},
+              {"key": "6", "display": "6", "pitch": "D#4", "duration": "half", "measure": 51, "beat": 1},
+              {"key": "4", "display": "4", "pitch": "E4", "duration": "quarter", "measure": 51, "beat": 3},
+              {"key": "7", "display": "7", "pitch": "F#4", "duration": "quarter", "measure": 51, "beat": 4},
+              {"key": "3", "display": "3", "pitch": "G#4", "duration": "whole", "measure": 52, "beat": 1},
+              {"key": "8", "display": "8", "pitch": "G#4", "duration": "quarter", "measure": 53, "beat": 1, "dynamics": "ppp"},
+              {"key": "2", "display": "2", "pitch": "A4", "duration": "eighth", "measure": 53, "beat": 2},
+              {"key": "9", "display": "9", "pitch": "B4", "duration": "eighth", "measure": 53, "beat": 2.5},
+              {"key": "1", "display": "1", "pitch": "C#5", "duration": "quarter", "measure": 53, "beat": 3},
+              {"key": "0", "display": "0", "pitch": "B4", "duration": "quarter", "measure": 53, "beat": 4},
+              {"key": "f", "display": "f", "pitch": "A4", "duration": "half", "measure": 54, "beat": 1},
+              {"key": "j", "display": "j", "pitch": "G#4", "duration": "half", "measure": 54, "beat": 3},
+              {"key": "d", "display": "d", "pitch": "F#4", "duration": "half", "measure": 55, "beat": 1},
+              {"key": "k", "display": "k", "pitch": "E#4", "duration": "half", "measure": 55, "beat": 3},
+              {"key": "s", "display": "s", "pitch": "F#4", "duration": "whole", "measure": 56, "beat": 1}
+            ]
+          },
+          {
+            "id": "A2-P3",
+            "measures": "57-65",
+            "description": "Final cadence - ending in C-sharp major",
+            "noteCount": 28,
+            "notes": [
+              {"key": "l", "display": "l", "pitch": "C#5", "duration": "quarter", "measure": 57, "beat": 1, "dynamics": "pp dolce"},
+              {"key": "a", "display": "a", "pitch": "B4", "duration": "eighth", "measure": 57, "beat": 2},
+              {"key": ";", "display": ";", "pitch": "A4", "duration": "eighth", "measure": 57, "beat": 2.5},
+              {"key": "g", "display": "g", "pitch": "G#4", "duration": "quarter", "measure": 57, "beat": 3},
+              {"key": "h", "display": "h", "pitch": "F#4", "duration": "quarter", "measure": 57, "beat": 4},
+              {"key": "r", "display": "r", "pitch": "E#4", "duration": "half", "measure": 58, "beat": 1, "dynamics": "morendo"},
+              {"key": "u", "display": "u", "pitch": "F#4", "duration": "quarter", "measure": 58, "beat": 3},
+              {"key": "e", "display": "e", "pitch": "G#4", "duration": "quarter", "measure": 58, "beat": 4},
+              {"key": "i", "display": "i", "pitch": "A4", "duration": "half", "measure": 59, "beat": 1},
+              {"key": "w", "display": "w", "pitch": "G#4", "duration": "half", "measure": 59, "beat": 3},
+              {"key": "o", "display": "o", "pitch": "F#4", "duration": "whole", "measure": 60, "beat": 1, "dynamics": "ppp"},
+              {"key": "q", "display": "q", "pitch": "E#4", "duration": "half", "measure": 61, "beat": 1},
+              {"key": "p", "display": "p", "pitch": "F#4", "duration": "half", "measure": 61, "beat": 3},
+              {"key": "t", "display": "t", "pitch": "G#4", "duration": "whole", "measure": 62, "beat": 1},
+              {"key": "y", "display": "y", "pitch": "E#4", "duration": "half", "measure": 63, "beat": 1, "dynamics": "smorzando"},
+              {"key": "v", "display": "v", "pitch": "C#4", "duration": "half", "measure": 63, "beat": 3},
+              {"key": "m", "display": "m", "pitch": "C#4", "duration": "whole", "measure": 64, "beat": 1},
+              {"key": "c", "display": "c", "pitch": "E#4", "duration": "half", "measure": 65, "beat": 1},
+              {"key": "n", "display": "n", "pitch": "G#4", "duration": "half", "measure": 65, "beat": 3},
+              {"key": "x", "display": "x", "pitch": "C#5", "duration": "whole", "measure": 65, "beat": 1, "articulation": "fermata"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "practiceSettings": {
+    "recommendedWPM": {
+      "beginner": 12,
+      "intermediate": 25,
+      "advanced": 40
+    },
+    "specialNotes": "This nocturne requires very expressive playing; take time with the rests"
+  },
+  "statistics": {
+    "totalCharacters": 286,
+    "uniqueKeys": 45,
+    "averageNotesPerPhrase": 24
+  }
+}
