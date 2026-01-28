@@ -1,0 +1,29 @@
+# Claude Code
+.claude/
+
+# System files
+nul
+*.jfif
+*.webm
+*.png
+*.pdf
+*.mp4
+*.txt
+*.js
+
+# Keep only essential files for deployment
+# HTML files and audio assets are tracked
+
+# Temp files
+temp_*
+C:temp_*
+
+# Old versions
+VLTS_v38_*
+icc_grammar_*
+interstellar.html
+
+# Folders
+Text Adventure/
+Intonation in sentences/
+IPA/
