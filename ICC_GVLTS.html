@@ -65266,6 +65266,11 @@ function selectGradeLevel(level) {
     });
 
     renderChineseTypes(level);
+
+    // Sync with School Composition module
+    if (typeof syncSchoolGradeLevel === 'function') {
+        syncSchoolGradeLevel(level);
+    }
 }
 
 function renderChineseTypes(level) {
@@ -68104,14 +68109,7 @@ function checkSchoolGrammar() {
     }
 }
 
-// Hook into grade level selector
-const originalSelectGradeLevel = typeof selectGradeLevel === 'function' ? selectGradeLevel : null;
-function selectGradeLevel(level) {
-    if (originalSelectGradeLevel) {
-        originalSelectGradeLevel(level);
-    }
-    syncSchoolGradeLevel(level);
-}
+// Grade level sync is now handled directly in selectGradeLevel()
 
 // ==================== SCHOOL COMPOSITION AI CHECK ====================
 async function checkSchoolCompositionWithAI() {
